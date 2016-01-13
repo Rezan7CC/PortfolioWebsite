@@ -11,6 +11,13 @@ body
 	margin-left: 0;
 }
 
+.nav .container
+{
+	border-top-style: solid;
+	border-top-width: thin;
+	border-color: #ddd;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
