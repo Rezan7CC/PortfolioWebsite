@@ -1,0 +1,159 @@
+body
+{
+	background-color: #fefefe;
+}
+
+.nav
+{
+	background-color: #e5e5e5;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.nav .container
+{
+	border-top-style: solid;
+	border-top-width: thin;
+	border-color: #ddd;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav ul
+{
+}
+
+.nav li
+{
+	display: inline;
+}
+
+.title 
+{
+	color: #5a5a5a;
+}
+
+.title h1
+{
+	font-size: 32px;
+	font-weight: bold;
+}
+.title h2
+{
+	font-size: 24px;
+	position: relative;
+	bottom: 14px;
+}
+
+.carousel .carousel-control
+{
+	height: 500px;
+}
+
+.carousel .spencer
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-image: url("../img/spencer/SpencerScreenshot01.jpg");
+}
+
+.carousel .test
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-image: url("../img/spencer/SpencerScreenshot02.jpg");
+}
+
+.jumbotron
+{
+	height: 500px;
+	color: #fefefe;
+	border-bottom-style: solid;
+	border-color: #cfcfcf;
+	border-bottom-width: thin;
+}
+
+.jumbotron h1
+{
+	font-size: 48px;
+}
+
+.jumbotron h2
+{
+	position: relative;
+	bottom: 14px;
+	font-size: 20px;
+
+}
+
+.description
+{
+	color: #5a5a5a;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.pictures
+{
+	border-top-style: solid;
+	border-top-width: thin;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-color: #cfcfcf;
+	background-color: #e5e5e5;
+	padding: 10px;
+}
+
+.pictures .thumbnail
+{
+	padding: 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.pictures .description
+{
+	margin-top: 15px;
+}
+
+.bottom
+{
+
+}
+
+.bottom h2
+{
+	color: #5a5a5a;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 24px;
+}
+
+.bottom li
+{
+	color: #5a5a5a;
+}
+
+.bottom h4
+{
+	font-size: 16px;
+}
+
+.bottom img
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+}
