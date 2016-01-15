@@ -4,8 +4,8 @@
 	<meta charset="utf-8"/>
 	<title>Portfolio - Rezan Kizilgün</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="bootstrap.css">
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div class="nav">
@@ -25,11 +25,63 @@
 	</div>
 </div>
 
-<div class="jumbotron">
-	<div class="container">
-		<h1>Spencer</h1>
-		<h2>Unreal Engine 4, C++</h2>
+<div id="project-carousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#project-carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#project-carousel" data-slide-to="1"></li>
+		<li data-target="#project-carousel" data-slide-to="2"></li>
+		<li data-target="#project-carousel" data-slide-to="3"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<div class="spencer jumbotron">
+				<div class="container">
+					<h1>Spencer</h1>
+					<h2>Unreal Engine 4, C++</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="test jumbotron">
+				<div class="container">
+					<h1>Project 2</h1>
+					<h2>Unreal Engine 4, C++</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="spencer jumbotron">
+				<div class="container">
+					<h1>Project 3</h1>
+					<h2>Unreal Engine 4, C++</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="test jumbotron">
+				<div class="container">
+					<h1>Project 4</h1>
+					<h2>Unreal Engine 4, C++</h2>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#project-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#project-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
 </div>
 
 <div class="description">
@@ -219,5 +271,7 @@
 	</div>
 </div>
 
+<script src="javascript/jquery-1.12.0.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
 </body>
 </html>
