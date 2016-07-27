@@ -1,55 +1,46 @@
 body
 {
 	background-color: #fefefe;
+	margin-top: 50px;
 }
 
-.nav
-{
-	background-color: #e5e5e5;
-	margin-top: 20px;
-	margin-right: 0;
-	margin-left: 0;
-}
-
-.nav .container
-{
-	border-top-style: solid;
-	border-top-width: thin;
-	border-color: #ddd;
-}
-
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-}
-
-.nav ul
+.navbar .nav
 {
 }
 
-.nav li
+.navbar .ul
 {
 	display: inline;
 }
 
-.title 
+.navbar .nav a
 {
-	color: #5a5a5a;
+  color: #3D85C6;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.title h1
+.navbar-header
 {
-	font-size: 32px;
-	font-weight: bold;
+	color: #9D9D9D;
 }
-.title h2
+
+.navbar-brand
 {
-	font-size: 24px;
-	position: relative;
-	bottom: 14px;
+	padding: 11px 11px;
+}
+
+.navbar-brand h1
+{
+	margin: 0px 0px;
+	font-size: 16px;
+}
+
+.navbar-brand h2
+{
+	margin: 0px 0px;
+	font-size: 12px;
 }
 
 .carousel .carousel-control
@@ -134,11 +125,13 @@ body
 
 .bottom h2
 {
-	color: #5a5a5a;
+	color: #3D85C6;
 	text-align: center;
 	margin-top: 25px;
-	margin-bottom: 25px;
-	font-size: 24px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .bottom li
