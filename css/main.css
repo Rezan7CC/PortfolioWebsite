@@ -99,22 +99,12 @@ body
 	height: 500px;
 }
 
-.carousel .spencer
+.carousel .jumbotron
 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
-	background-image: url("../img/spencer/SpencerScreenshot01.jpg");
-}
-
-.carousel .test
-{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: bottom;
-	background-image: url("../img/spencer/SpencerScreenshot02.jpg");
 }
 
 .carousel-indicators
