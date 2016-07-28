@@ -38,7 +38,7 @@ body
 {
     position: absolute;
     top: 20px;
-    width: 90%;
+    width: auto;
     color: #FFF;
 }
 
@@ -221,5 +221,10 @@ body
 
 .footer
 {
-	
+	background-color: #222222;
+	margin-top: 15px;
+	padding-top: 30px;
+	border-top-style: solid;
+	border-color: #080808;
+	border-top-width: thin;
 }
