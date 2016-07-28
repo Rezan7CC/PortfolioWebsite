@@ -40,13 +40,44 @@ body
     top: 20px;
     width: 96.66666666666666%;
     color: #FFF;
-	margin: 0px 40px;
 }
 
 .carousel-title h1
 {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+@media (min-width: 1800px)
+{
+	.carousel-title
+	{
+		margin-left: 25%;
+	}
+}
+
+@media (max-width: 1799px)
+{
+	.carousel-title
+	{
+		margin-left: 16%;
+	}
+}
+
+@media (max-width: 1199px)
+{
+	.carousel-title
+	{
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.carousel-title
+	{
+		margin-left: 4%;
+	}
 }
 
 .text-shadow
