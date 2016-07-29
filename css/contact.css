@@ -1,14 +1,14 @@
 .contact-links
 {
 	padding: 0 15%;
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 75px;
 	font-size: 18px;
 }
 
 .contact-links .row
 {
-	padding-bottom: 10px;
+	padding-bottom: px;
 }
 
 .contact-links img
@@ -17,4 +17,21 @@
 	height: 20px;
 	margin-right: 10px;
 	margin-bottom: 3px;
+}
+
+.footer-top
+{
+	padding-top: 50px;
+}
+
+.header
+{
+	margin: 0 0;
+	padding: 0 0;
+	background-color: #e5e5e5;
+	padding-top: 5px;
+	border-bottom-style: solid;
+	border-color: #cfcfcf;
+	border-bottom-width: thin;
+	padding-top: 30px;
 }
