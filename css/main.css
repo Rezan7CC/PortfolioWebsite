@@ -211,6 +211,8 @@ body
 
 .footer-top
 {
+	margin: 0 0;
+	padding: 0 0;
 	background-color: #e5e5e5;
 	margin-top: 15px;
 	padding-top: 5px;
@@ -221,6 +223,8 @@ body
 
 .footer-bottom
 {
+	margin: 0 0;
+	padding: 0 0;
 	background-color: #222222;
 	padding-top: 30px;
 	border-top-style: solid;
