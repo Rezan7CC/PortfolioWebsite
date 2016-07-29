@@ -1,19 +1,24 @@
 .carousel .screenshot01
 {
-	background-image: url("../img/spencer/SpencerScreenshot01.jpg");
+	background-image: url("../img/panzerx/panzerx-screenshot01.png");
 }
 
 .carousel .screenshot02
 {
-	background-image: url("../img/spencer/SpencerScreenshot02.jpg");
+	background-image: url("../img/panzerx/panzerx-screenshot02.png");
 }
 
 .carousel .screenshot03
 {
-	background-image: url("../img/spencer/SpencerScreenshot01.jpg");
+	background-image: url("../img/panzerx/panzerx-screenshot03.png");
 }
 
 .carousel .screenshot04
 {
-	background-image: url("../img/spencer/SpencerScreenshot02.jpg");
+	background-image: url("../img/panzerx/panzerx-screenshot04.png");
+}
+
+.carousel .jumbotron
+{
+	background-position: 0 -90px;
 }
