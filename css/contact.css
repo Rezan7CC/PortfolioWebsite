@@ -1,0 +1,20 @@
+.contact-links
+{
+	padding: 0 15%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-size: 18px;
+}
+
+.contact-links .row
+{
+	padding-bottom: 10px;
+}
+
+.contact-links img
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+}
