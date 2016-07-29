@@ -1,0 +1,38 @@
+.jumbotron
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 350px;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.jumbotron h1
+{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.nocturnalhunt .jumbotron
+{
+	background-image: url("../img/nocturnalhunt/nocturnalhunt-screenshot01.png");
+}
+
+.spencer .jumbotron
+{
+	background-image: url("../img/spencer/SpencerScreenshot01.jpg");
+}
+
+.panzerx .jumbotron
+{
+	background-image: url("../img/panzerx/panzerx-screenshot02.png");
+}
+
+.footer-top
+{
+	margin-top: 0;
+	padding-top: 1px;
+}
