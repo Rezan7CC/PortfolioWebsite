@@ -1,14 +1,27 @@
+.about
+{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 15.75%;
+	font-size: 18px;
+}
+
+.about p
+{
+	margin-bottom: 5px;
+}
+
 .contact-links
 {
 	padding: 0 15%;
-	padding-top: 70px;
+	padding-top: 25px;
 	padding-bottom: 75px;
 	font-size: 18px;
 }
 
 .contact-links .row
 {
-	padding-bottom: px;
+	margin-bottom: 5px;
 }
 
 .contact-links img
