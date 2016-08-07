@@ -34,6 +34,14 @@ body
 	font-size: 12px;
 }
 
+.carousel .jumbotron
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center -200px;
+}
+
 .carousel-title
 {
     position: absolute;
@@ -70,6 +78,11 @@ body
 	{
 		margin-left: 10%;
 	}
+	
+	.carousel .jumbotron
+	{
+		background-position: center center;
+	}
 }
 
 @media (max-width: 767px)
@@ -97,14 +110,6 @@ body
 .carousel .carousel-control
 {
 	height: 500px;
-}
-
-.carousel .jumbotron
-{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center -200px;
 }
 
 .carousel-indicators
