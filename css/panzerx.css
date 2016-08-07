@@ -18,9 +18,12 @@
 	background-image: url("../img/panzerx/panzerx-screenshot04.png");
 }
 
-.carousel .jumbotron
+@media (min-width: 1200px)
 {
-	background-position: center -90px;
+	.carousel .jumbotron
+	{
+		background-position: center -90px;
+	}
 }
 
 .pictures .thumbnail .logo
